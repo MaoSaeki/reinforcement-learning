@@ -76,4 +76,6 @@ def run_karm_bandit_optomistic_greedy(k, step, episode):
     file.close()
 
 
-run_karm_bandit_optomistic_greedy(10, 1000, 2000)
+if __name__ == '__main__':
+    # do k-arm bandit problem with 10 arm, 1000 steps per episode, 2000 episodes
+    run_karm_bandit_optomistic_greedy(10, 1000, 2000)
